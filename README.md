@@ -13,8 +13,7 @@ for more details: http://compass-style.org/install/
 2. Install node dependencies using the following command:<br />
 <code>npm install</code>
 
-3. The <code>src</code> folder is where all working styles/scripts/png images will be placed.<br /> 
-The <code>assets</code> folder is where all compiled code will be dropped. This is the only<br />
+3. The <code>src</code> folder is where all working styles/scripts/png images will be placed. The <code>assets</code> folder is where all compiled code will be dropped. This is the only
 folder you will need when deploying a site using <strong>eureka-build</strong>.
 
 4. To compile your code, run one of the following commands:<br />
@@ -22,18 +21,16 @@ folder you will need when deploying a site using <strong>eureka-build</strong>.
 <code>grunt development</code><br />
 <code>grunt build</code><br />
 
-5. The watch command will look for changes made to your styles, scripts or pngs placed <br />
-in the sprite folder:
+5. The watch command will look for changes made to your styles, scripts or pngs placed in the sprite folder:
 
 <code>grunt watch</code><br />
 <br />
 Use <code>ctrl+c</code> to cancel this command
 <br />
-6. To add more js libraries, drop them into the <code>libs</code> folder and then add them to the<br />
-grunt file in the <code>jsFileList</code> array. They will be compiled into a js file called <code>build.js</code>.
+6. To add more js libraries, drop them into the <code>libs</code> folder and then add them to the grunt file in the <code>jsFileList</code> array. They will be compiled into a js file called <code>build.js</code>.
 <br />
-7. All pngs that you want to be sprited, need to be dropped into the sprites folder located <code>src/images/sprites/</code>.
-They will then be combined into a sprite png located in the <code>assets</code> folder along with the relevant Sass code<br />
+<br />
+7. All pngs that you want to be sprited, need to be dropped into the sprites folder located <code>src/images/sprites/</code>. They will then be combined into a sprite png located in the <code>assets</code> folder along with the relevant Sass code<br />
 located in the sprite style sheet <code>_sprite.scss</code>.
 
 =================
