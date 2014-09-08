@@ -29,10 +29,9 @@ in the sprite folder:
 <br />
 Use <code>ctrl+c</code> to cancel this command
 <br />
-<br />
 6. To add more js libraries, drop them into the <code>libs</code> folder and then add them to the<br />
 grunt file in the <code>jsFileList</code> array. They will be compiled into a js file called <code>build.js</code>.
-
+<br />
 7. All pngs that you want to be sprited, need to be dropped into the sprites folder located <code>src/images/sprites/</code>.
 They will then be combined into a sprite png located in the <code>assets</code> folder along with the relevant Sass code<br />
 located in the sprite style sheet <code>_sprite.scss</code>.
