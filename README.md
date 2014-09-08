@@ -43,5 +43,7 @@ Credit:
 - Concatenate https://github.com/gruntjs/grunt-contrib-concat
 - JSHint https://github.com/gruntjs/grunt-contrib-jshint
 
+More info can be found here: www.andrew-cocker.co.uk
+
 
 
