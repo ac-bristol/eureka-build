@@ -89,7 +89,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-spritesmith');
 
   // Default task.
-  grunt.registerTask('development', ['compass:dev','concat', 'sprite']);
+  grunt.registerTask('default', ['compass:dev','concat', 'sprite']);
 
   // Build Task
   grunt.registerTask('build', ['compass:build','uglify', 'concat', 'sprite']);
