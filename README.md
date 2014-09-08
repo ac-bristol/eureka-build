@@ -20,12 +20,10 @@ folder you will need when deploying a site using <strong>eureka-build</strong>.
 <code>grunt development</code><br />
 <code>grunt build</code><br />
 
-5. The watch command will look for changes made to your styles, scripts or pngs placed in the sprite folder:
-
-<code>grunt watch</code><br />
-<br />
+5. The watch command will look for changes made to your styles, scripts or pngs placed in the sprite folder:<br /><br />
+<code>grunt watch</code><br /><br />
 Use <code>ctrl+c</code> to cancel this command
-<br />
+<br /><br />
 6. To add more js libraries, drop them into the <code>libs</code> folder and then add them to the grunt file in the <code>jsFileList</code> array. They will be compiled into a js file called <code>build.js</code>.
 <br />
 <br />
