@@ -10,14 +10,13 @@ Getting started!
 1. Make sure you have latest version of Compass installed. If its not installed, visit the website<br />
 for more details: http://compass-style.org/install/
 
-2. Install node dependencies using the following command:<br />
+2. Install node dependencies using the following command:<br /><br />
 <code>npm install</code>
 
 3. The <code>src</code> folder is where all working styles/scripts/png images will be placed. The <code>assets</code> folder is where all compiled code will be dropped. This is the only
 folder you will need when deploying a site using <strong>eureka-build</strong>.
 
-4. To compile your code, run one of the following commands:<br />
-
+4. To compile your code, run one of the following commands:<br /><br />
 <code>grunt development</code><br />
 <code>grunt build</code><br />
 
