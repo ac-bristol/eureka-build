@@ -1,0 +1,68 @@
+/* TYPE
+
+Contents
+==================================================
+    #Body
+    #Headers
+    #Misc
+    #Grid
+*/
+
+
+
+/* #Body */
+body {
+
+	font: 80%/1.4 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+
+	@include respond-to(small) {  
+		// Use default
+	}
+	@include respond-to(med) {
+		font-size:100%;
+	}
+	@include respond-to(large) {
+		// Continue to use med
+	}
+	@include respond-to(xl) {
+		font-size:110%;
+	}
+  
+}
+
+/* #Headers */
+h1 {
+	font-size: 2em;
+	line-height:1em;
+	margin:0 0 0.6em 0;
+}
+h2 {
+	font-size: 1.4em;
+	line-height:1em;
+	margin:0 0 0.5em 0;
+}
+h3 {
+	line-height:1em;
+	margin:0 0 0.4em 0;
+}
+h4, h5, h6 {
+	line-height:1em;
+	margin:0 0 0.2em 0;
+}
+
+/* #Misc */
+a {
+	text-decoration:underline;
+	&:hover {
+		text-decoration:none;
+	}
+}
+p {
+	margin: 0 0 0.8em;
+}
+ul {
+	margin: 0.8em 0;
+	padding-left:1.4em;
+	li {
+	}
+}

@@ -1,0 +1,46 @@
+/* MIXINS
+
+Contents
+==================================================
+    #Breakpoints
+    #Grid
+*/
+
+
+
+/* #Breakpoints */
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "small" {
+    @media (min-width: $small) {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "med" {
+    @media (min-width: $med) {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "large" {
+    @media (min-width: $large) {
+      @content;
+    }
+  }
+  
+  @else if $breakpoint == "xl" {
+    @media (min-width: $xl) {
+      @content;
+    }
+  }
+}
+
+/* #Grid */
+@mixin spanWidth($numColumns) {
+	$numGutters: $totalColumns - 1; // Gutters will always be 1 less then columns
+	$gutterSpace: $numGutters * $gutterWidth; // Finding total space taken up by gutters
+	$remainingSpace: 100 - $gutterSpace; // Subtracting the total gutter space from 100(%)
+	$columnWidth: $remainingSpace / $totalColumns; // Finding column width by dividing space left by number of columns
+	$width: ($numColumns) * $columnWidth + ($gutterWidth * ($numColumns - 1) );
+	width: $width;
+}
