@@ -9,57 +9,35 @@ Contents
 
 /* #Define grid */
 
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
-    @include box-sizing(border-box);
-    float:left;
-    width:100%;
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside
+);
+
+.page {
+
+	@include container;
+	@include clearfix; 
+
 }
 
-.col:first-child {
-	margin-left:0;
+.header {
+	@include respond-to(med) {
+		@include span(4 of 12);
+	}
 }
 
-@include respond-to(large) {
+.main {
+	@include respond-to(med) {
+		@include span(4 of 12);
+	}	
+}
 
-	.col{
-	  	margin-left: $gutterWidth;
-  	}
-	.span1{
-		@include spanWidth(1);
+.footer {
+	@include respond-to(med) {
+		@include span(4 of 12);
 	}
-	.span2{
-		@include spanWidth(2);
-	}
-	.span3{
-		@include spanWidth(3);
-	}
-	.span4{
-		@include spanWidth(4);
-	}
-	.span5{
-		@include spanWidth(5);
-	}
-	.span6{
-		@include spanWidth(6);
-	}
-	.span7{
-		@include spanWidth(7);
-	}
-	.span8{
-		@include spanWidth(8);
-	}
-	.span9{
-		@include spanWidth(9);
-	}
-	.span10{
-		@include spanWidth(10);
-	}
-	.span11{
-		@include spanWidth(11);
-	}
-	.span12{
-		@include spanWidth(12);
-		margin-left: 0;
-	}
-
 }

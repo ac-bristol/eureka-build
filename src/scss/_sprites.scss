@@ -8,46 +8,16 @@ SCSS variables are information about icon's compiled state, stored under its ori
 The large array-like variables contain all information about a single icon
 $icon-home: x y offset_x offset_y width height total_width total_height image_path;
 */
-$down-arrow-x: 0px;
-$down-arrow-y: 0px;
-$down-arrow-offset-x: 0px;
-$down-arrow-offset-y: 0px;
-$down-arrow-width: 37px;
-$down-arrow-height: 20px;
-$down-arrow-total-width: 37px;
-$down-arrow-total-height: 80px;
-$down-arrow-image: '../../assets/images/sprite.png';
-$down-arrow: 0px 0px 0px 0px 37px 20px 37px 80px '../../assets/images/sprite.png';
-$down-arrow1-x: 0px;
-$down-arrow1-y: 20px;
-$down-arrow1-offset-x: 0px;
-$down-arrow1-offset-y: -20px;
-$down-arrow1-width: 37px;
-$down-arrow1-height: 20px;
-$down-arrow1-total-width: 37px;
-$down-arrow1-total-height: 80px;
-$down-arrow1-image: '../../assets/images/sprite.png';
-$down-arrow1: 0px 20px 0px -20px 37px 20px 37px 80px '../../assets/images/sprite.png';
-$down-arrow2-x: 0px;
-$down-arrow2-y: 40px;
-$down-arrow2-offset-x: 0px;
-$down-arrow2-offset-y: -40px;
-$down-arrow2-width: 37px;
-$down-arrow2-height: 20px;
-$down-arrow2-total-width: 37px;
-$down-arrow2-total-height: 80px;
-$down-arrow2-image: '../../assets/images/sprite.png';
-$down-arrow2: 0px 40px 0px -40px 37px 20px 37px 80px '../../assets/images/sprite.png';
-$down-arrow3-x: 0px;
-$down-arrow3-y: 60px;
-$down-arrow3-offset-x: 0px;
-$down-arrow3-offset-y: -60px;
-$down-arrow3-width: 37px;
-$down-arrow3-height: 20px;
-$down-arrow3-total-width: 37px;
-$down-arrow3-total-height: 80px;
-$down-arrow3-image: '../../assets/images/sprite.png';
-$down-arrow3: 0px 60px 0px -60px 37px 20px 37px 80px '../../assets/images/sprite.png';
+$placeholder-x: 0px;
+$placeholder-y: 0px;
+$placeholder-offset-x: 0px;
+$placeholder-offset-y: 0px;
+$placeholder-width: 37px;
+$placeholder-height: 20px;
+$placeholder-total-width: 37px;
+$placeholder-total-height: 20px;
+$placeholder-image: '../../assets/images/sprite.png';
+$placeholder: 0px 0px 0px 0px 37px 20px 37px 20px '../../assets/images/sprite.png';
 
 /*
 The provided mixins are intended to be used with the array-like variables

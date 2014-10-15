@@ -43,6 +43,7 @@ module.exports = function(grunt) {
     compass: {
       dev: {
           options: {              
+            require: 'susy',
             sassDir: '<%= meta.srcPath %>scss',
             cssDir: '<%= meta.buildPath %>styles',
             imagesDir: '<%= meta.buildPath %>images',
@@ -53,7 +54,8 @@ module.exports = function(grunt) {
           }
       },
       build: {
-        options: {              
+        options: {     
+          require: 'susy',         
           sassDir: '<%= meta.srcPath %>scss',
           cssDir: '<%= meta.buildPath %>styles',
           imagesDir: '<%= meta.buildPath %>images',
@@ -92,6 +94,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['compass:dev','concat', 'sprite']);
 
   // Build Task
-  grunt.registerTask('build', ['compass:build','uglify', 'concat', 'sprite']);
+  grunt.registerTask('build', ['compass:build','uglify:build', 'concat', 'sprite']);
 
 };
