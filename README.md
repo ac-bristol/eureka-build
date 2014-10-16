@@ -42,6 +42,7 @@ Credit:
 - Watch https://github.com/gruntjs/grunt-contrib-watch
 - Concatenate https://github.com/gruntjs/grunt-contrib-concat
 - JSHint https://github.com/gruntjs/grunt-contrib-jshint
+- CSSLint https://github.com/gruntjs/grunt-contrib-csslint
 
 More info can be found here: www.andrew-cocker.co.uk
 
