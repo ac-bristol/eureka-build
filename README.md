@@ -1,8 +1,8 @@
 eureka-build
 ============
 
-An easy to install, base build project utlising NPM and Grunt, Sass, Compass, Image spriting<br />
-JS hint, Uglify and concat.
+My base build project utlising NPM and Grunt, Sass, Compass, Image spriting<br />
+JS hint, CSS lint, JS Uglify, concat and all the lovely tools I like to use.
 
 Getting started!
 ================
@@ -43,6 +43,7 @@ Credit:
 - Concatenate https://github.com/gruntjs/grunt-contrib-concat
 - JSHint https://github.com/gruntjs/grunt-contrib-jshint
 - CSSLint https://github.com/gruntjs/grunt-contrib-csslint
+- Susy http://susy.oddbird.net/
 
 More info can be found here: www.andrew-cocker.co.uk
 
