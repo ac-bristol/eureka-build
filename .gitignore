@@ -29,3 +29,6 @@ node_modules
 
 # Compiled assets
 assets/*
+
+# Random bits
+*.DS_Store
