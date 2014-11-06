@@ -13,6 +13,9 @@ for more details: http://compass-style.org/install/
 2. Install node dependencies using the following command:<br /><br />
 <code>npm install</code>
 
+3. Install susy:<br /><br />
+<code>gem install susy<code>
+
 3. The <code>src</code> folder is where all working styles/scripts/png images will be placed. The <code>assets</code> folder is where all compiled code will be dropped. This is the only
 folder you will need when deploying a site using <strong>eureka-build</strong>.
 
