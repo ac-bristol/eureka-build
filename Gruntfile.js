@@ -142,7 +142,7 @@ module.exports = function(grunt) {
 
     watch: {
       sass: {
-        files: ['<%= meta.srcPath %>scss/**/*.scss'],
+        files: ['<%= meta.srcPath %>styles/*.scss'],
         tasks: ['sass:dev']
       },
       javascripts: {
