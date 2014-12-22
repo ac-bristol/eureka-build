@@ -18,7 +18,6 @@ $susy: (
 );
 
 .page {
-
 	@include container;
 	@include clearfix; 
 
@@ -26,18 +25,18 @@ $susy: (
 
 .header {
 	@include respond-to(med) {
-		@include span(4 of 12);
+		@include span(12 of 12);
 	}
 }
 
 .main {
 	@include respond-to(med) {
-		@include span(4 of 12);
+		@include span(12 of 12);
 	}	
 }
 
 .footer {
 	@include respond-to(med) {
-		@include span(4 of 12);
+		@include span(12 of 12);
 	}
 }

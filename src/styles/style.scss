@@ -1,20 +1,12 @@
-//@import "compass";
 @import "susy";
-
-@import "variables";
-
-@import "htmlbp";
-
-@import "mixin";
-
-@import "normalize";
-
-@import "sprites";
-
-@import "type";
-
-@import "grid";
-
-@import "custom";
-
-
+@import "modules/variables";
+@import "base/htmlbp";
+@import "base/mixin";
+@import "base/normalize";
+@import "modules/sprites";
+@import "modules/type";
+@import "modules/grid";
+@import "modules/header";
+@import "modules/header";
+@import "modules/nav";
+@import "modules/content";
